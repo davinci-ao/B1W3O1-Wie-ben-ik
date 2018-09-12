@@ -1,0 +1,92 @@
+h1 {
+    position: fixed;/* Zorgt ervoor dat Sidebar op plek blijft, zelfs als je moet scrollen*/
+    color: orange;
+    top: 0;			/*Ik moet echter wel een plek definiëren waar het moet blijven 'plakken' wilt het 'fixed' werken. */
+    left: 50px;
+}
+
+h2 {
+    background-color: #f1f1f1;
+}
+
+
+.sideBarBlock li a {
+    width: 168px;
+    display: block; /*Zorgt ervoor dat het block klikbaar wordt ipv een stukje tekst */
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none; /*zorgt ervoor dat properties als underline wegblijven*/
+}
+
+.sideBarBlock li a:hover { /*Zorgt ervoor dat wanneer muis er overheen gaat, kleuren veranderen op sidebar */
+	background-color: orange;
+	color: white;
+}
+
+.sideBar {
+	list-style-type: none; /*Verwijderd alle bullets, rondjes etc. bij de opsomming */
+	margin: 0;
+	padding:0;
+	width: 200px;
+    background-color: #f1f1f1;
+    height: 100%; /* Volledige grootte */
+    position: fixed; /* Zorgt ervoor dat Sidebar op plek blijft, zelfs als je moet scrollen*/
+    margin-top: 52px;
+
+}
+
+.active {
+	background-color: orange;
+	color: white;
+}
+
+
+.introduction {
+	text-align: justify; /* Stretched de zinnen om zo'n manier dat elke zin een gelijke breedte heeft */
+	max-width: 800px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.ik{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	border:2px solid;
+	border-radius: 15px;
+	width: 250px;
+}
+
+
+.introductionBlock {
+	border-style: groove;
+	border-radius: 15px;
+	overflow: hidden;
+	max-width: 800px;
+	border-color: orange;
+	margin-left: 250px;
+}
+
+.logo {
+	position: fixed; /*definieert de positie methode van de afbeelding - absolute, static, fixed, sticky etc.*/
+	right: 0px; /*geeft de exacte positie van de afbeelding weer */
+	bottom: 0px;
+}
+
+.Competenties {
+	font-family: "Courier New", Courier, Monospace; 
+	font-style: italic;
+	text-align: justify;
+	max-width: 800px;
+	margin-left: 250px;
+}
+
+.Competenties li {
+	margin-top: 20px;
+}
+
+.validate {
+	margin-left: 250px;
+}

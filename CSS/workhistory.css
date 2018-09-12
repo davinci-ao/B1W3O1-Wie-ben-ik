@@ -1,0 +1,58 @@
+.sideBarBlock li a {
+    width: 168px;
+    display: block; /*Zorgt ervoor dat de block klikbaar wordt */
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sideBarBlock li a:hover { /*Zorgt ervoor dat wanneer muis er overheen gaat, kleuren veranderen op sidebar */
+	background-color: orange;
+	color: white;
+}
+
+.sideBar {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	width: 200px;
+    background-color: #f1f1f1;
+    background-color: #f1f1f1;
+    height: 100%; /* Volledige grootte */
+    position: fixed; /* Zorgt ervoor dat Sidebar op plek blijft, zelfs als je moet scrollen*/
+    margin-top: 40px;
+}
+
+.active {
+	background-color: orange;
+	color: white;
+}
+
+.logo {
+    position: fixed; /*definieert de positie methode van de afbeelding - absolute, static, fixed, sticky etc.*/
+    right: 0px; /*geeft de exacte positie van de afbeelding weer */
+    bottom: 0px;
+}
+
+th {
+      text-align: left;
+      color: orange;
+}
+
+.workhistoryBlock {
+    margin-left: 250px;
+    max-width: 1000px;
+    font-family: "Courier New", courier, Monospace;
+}
+
+h2 {
+    background-color: #f1f1f1;
+    color: orange;
+}
+
+h1 {
+    position: fixed;
+    color: orange;
+    top: 0;
+    left: 50px;
+}
