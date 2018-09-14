@@ -1,0 +1,60 @@
+.profielfoto {
+	width: 250px;
+	float: left;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 30px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19); /*Dit zorgt voor een schaduw om de foto waar je lijkt alsof de foto er op is geplakt. Dit wordt ook wel material design genoemt.*/
+	}	
+p  {
+	margin-top: 45px;
+	margin-left: 30px;
+	margin-right: 15px;
+	}
+
+h1 {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 15px;
+	}
+
+h3 {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 15px;	
+	}
+
+body {
+	background-color: #E8DDC2;
+	}
+
+body, ul {
+	padding: 0px;
+	margin: 0px;
+	/*Dit zorgt er voor dat er geen ruimte zit aan de zijkanten van de navigatie balk. en ook dat het alleen het deel ul pakt en niet heel de body.*/	
+	}
+
+.nav {
+	background-color: #000000;
+	color: #F4F7F5;
+	list-style: none; /*Dit haalt de puntjes van de opsomming weg.*/
+	text-align: center;
+	padding: 20px 0 20px 0; /* De eerste staat voor boven de tweede voor rechts de derde voor beneden en de vierde voor links.*/
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19); /*Dit zorgt voor een schaduw om de foto waar je lijkt alsof de foto er op is geplakt. Dit wordt ook wel material design genoemt.*/
+	}
+
+.nav li {
+	display: inline-block; /*Dit zorgt ervoor dat de tekst in een lijn staan inplaats van onder elkaar.*/
+	padding-right: 25px;
+	}
+
+.nav li a {
+	text-decoration: none; /*Dit haalt het lijntje weg onder de tekst.*/
+	color: #F4F7F5;
+	}
+
+
+.nav li a:hover {
+	color: #E8DDC2; /*Dit zorgt ervoor dat als je met je muis over de worden gaat de kleur van de tekst veranderd.*/
+	} 
