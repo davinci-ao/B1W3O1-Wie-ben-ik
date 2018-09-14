@@ -1,0 +1,33 @@
+body{							
+	font-weight: bold;
+	background-image: url(free-vector-blue-grunge-background.jpeg);
+	background-size: cover;
+}
+.Name {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+img{
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+p {
+	font-size: 30px;
+}
+div{
+	width: 800px;
+	border: 5px solid black;
+	padding: 10px;
+	padding-bottom: 10px;
+	max-width: 800px;
+	max-height: 350sspx;
+	overflow: hidden;	
+	
+
+
+
+
+
+}
