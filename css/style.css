@@ -1,0 +1,135 @@
+.sidebar {
+    list-style-type: none; /* Dit zorgt ervoor dat er geen opsomming tekens vertoont worden. */
+    margin: 0; /* Zorgt voor ruimte buiten bepaalde plekken dat ze niet te groot worden */
+    padding: 0; /* Hoe groot de inhoud wordt. */
+    overflow: hidden; /* Zorgt ervoor dat de navigation bar doorloopt en te zien is zonder erover heen te hoveren met je muis. */
+    border: 1px solid #e7e7e7; /* Zorgt voor hoe de rand en de grootte eruit ziet. */
+    background-color: #f3f3f3; /* De kleur van de achtergrond. */
+}
+
+.sidebar li {
+    float: left; /* Float zorgt ervoor dat het bij de linker kant begint. */ 
+}
+
+.sidebar li a {
+    display: block; /* Dit laat het vertonen in een blok. */
+    color: #666; /* De kleur van de blok. */
+    text-align: center; /* Dat de text gecentreerd moet staan. */
+    padding: 14px 16px; /* Hoe groot de inhoud wordt. */
+    text-decoration: none; /* Geen decoratie om de tekst. */
+}
+
+.sidebar li a:hover:not(.active) { /* Als je met de muis erover heen gaat zie je niet dat er iets gebeurd. */
+    background-color: #ddd; /* Kleur van de achtergrond. */
+}
+
+.sidebar li a.active {  /* Als je met de muis erover heen gaat zie je dat je erover heen gaat door middel van een verandering in kleur. */
+    color: white; /* Kleur is wit. */
+    background-color: #4CAF50; /* Kleur van de achtergrond. */
+}
+
+	body {
+		background-image:
+	url("../crimsonwood.jpg"); /* url zorgt ervoor dat de foto bestand gelinked wordt met de site waardoor het vertoont kan worden. De "../" zorgt ervoor dat het 1 map terug gaat en toch de foto erin kan plaatsen. */
+}
+
+
+}
+
+.sidebar li {
+    float: left; /* Aan de linker kant begint het. */
+    border-right:1px solid #bbb; /* Border-right is de rand aan de rechter kant, in dit geval heb ik het een kleur gegeven met solid. */
+}
+
+.Foto {
+	width: 250px; /* De breedte van de foto. */
+    display: block; /* Het wordt nu vertoont als een blok. */
+    margin-left: auto; /* De blok wordt automatisch goed gezet vanuitde linker kant.*/
+    margin-right: auto; /* De blok wordt automatisch goed gezet vanuitde rechter kant.*/
+	margin-top: 200px; /* Hoe ver de foto van de top is. */
+}
+.home p {
+    border: 1px solid black; /* De rand is zwart. */
+    outline: #4CAF50 solid 1px; /* De grootte van de lijnen eromheen. */
+    margin: auto; /* Zorgt ervoor dat de tekst automatisch in de midden staat. */   
+    padding: 20px; /* Hoe groot de inhoud wordt. */
+    text-align: center; /* Zorgt ervoor dat de tekst gecentreerd wordt. */
+    outline-color: white; /* Lijnen eromheen wit. */
+}
+
+h4 {
+    color: orange;
+}
+
+.opleidingContent li {
+    list-style-type: circle;
+    color: white;
+    text-align: center;
+}
+.bijbaan {
+    color:white; 
+    text-align:center;
+}
+
+div p {
+    color: white;
+    text-align:justify;
+    font-family: "Courier New", Courier, Monospace;
+}
+
+.tekstlinks {
+    float:left;
+    width:45%; 
+    border: 1px solid black; /* De rand is zwart. */
+    outline: #4CAF50 solid 1px; /* De grootte van de lijnen eromheen. */
+    margin: auto; /* Zorgt ervoor dat de tekst automatisch in de midden staat. */   
+    padding: 20px; /* Hoe groot de inhoud wordt. */
+    text-align: center; /* Zorgt ervoor dat de tekst gecentreerd wordt. */
+    outline-color: white; /* Lijnen eromheen wit. */
+
+}
+
+.tekstrechts {
+    float:right; 
+    width:45%;    
+    border: 1px solid black; /* De rand is zwart. */
+    outline: #4CAF50 solid 1px; /* De grootte van de lijnen eromheen. */
+    margin: auto; /* Zorgt ervoor dat de tekst automatisch in de midden staat. */   
+    padding: 20px; /* Hoe groot de inhoud wordt. */
+    text-align: center; /* Zorgt ervoor dat de tekst gecentreerd wordt. */
+    outline-color: white; /* Lijnen eromheen wit. */
+}
+
+.opleidingContent p {
+    color:white;
+}
+
+.opleidingContent {
+    border: 1px solid black; /* De rand is zwart. */
+    outline: #4CAF50 solid 1px; /* De grootte van de lijnen eromheen. */
+    margin: auto; /* Zorgt ervoor dat de tekst automatisch in de midden staat. */   
+    padding: 20px; /* Hoe groot de inhoud wordt. */
+    text-align: center; /* Zorgt ervoor dat de tekst gecentreerd wordt. */
+    outline-color: white; /* Lijnen eromheen wit. */
+}
+
+.ontwikkelContent li {
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    list-style-type: upper-roman;
+}
+
+.ontwikkelContent li {
+    padding: 15px;
+}
+
+.naschool p {
+    color:white;
+}
+
+.active {
+    background-color: gray;
+    color: white;
+
+}
