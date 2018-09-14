@@ -9,29 +9,25 @@
 .sideBarBlock li a:hover { /*Zorgt ervoor dat wanneer muis er overheen gaat, kleuren veranderen op sidebar */
 	background-color: orange;
 	color: white;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .sideBar {
 	list-style-type: none;
-	margin: 0;
+	margin: 40px 0 0 0;
 	padding:0;
 	width: 200px;
     background-color: #f1f1f1;
     height: 100%; /* Volledige grootte */
     position: fixed; /* Zorgt ervoor dat Sidebar op plek blijft, zelfs als je moet scrollen*/
-    margin-top: 40px;
+    box-shadow: 10px 10px 5px grey;
 
 }
 
 .active {
 	background-color: orange;
 	color: white;
-}
-
-.logo {
-    position: fixed; /*definieert de positie methode van de afbeelding - absolute, static, fixed, sticky etc.*/
-    right: 0px; /*geeft de exacte positie van de afbeelding weer */
-    bottom: 0px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .motivationBlock {
@@ -46,6 +42,7 @@
     border-width: 2px;
     border-radius: 4px;
     width: 200px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 h2 {
@@ -58,5 +55,37 @@ h1 {
     color: orange;
     top: 0;
     left: 50px;
+    text-shadow: 10px 10px 5px grey;
 }
 
+.footer {
+    position: fixed;    /*definieert de positie methode van de footer - absolute, static, fixed, sticky etc.*/
+    left: 0;            /*geeft de exacte positie van de footer weer */
+    bottom: 0;          /* In dit geval zorgt position fixed ervoor dat de footer op zijn plek blijft, zelfs tijdens scrollen */
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    display: inline;
+    margin-left: 50px;
+}
+
+.logo {
+    position: fixed; /*definieert de positie methode van de afbeelding - absolute, static, fixed, sticky etc.*/
+    right: 0px; /*geeft de exacte positie van de afbeelding weer */
+    bottom: 0px; /* In dit geval zorgt position fixed ervoor dat de logo op zijn plek blijft, zelfs tijdens scrollen */
+}
+
+
+@media(max-width: 900px){ /*ik zeg nu: bij deze breedte en kleiner moet er het volgende gebeuren; */
+
+.motivationImage {
+    display: none;
+}
+.logo {
+    display: none; /*Logo verdwijnt nu.*/
+}
+}
