@@ -3,6 +3,7 @@ body{
 	background-image: url(backgroundhomepage.jpg);
 	background-size: cover;
 }
+
 div{
     width: 530px;
     border: 5px solid black;
@@ -14,6 +15,7 @@ div{
     border-radius: 15px;
     -moz-border-radius: 15px;
 } 
+
 img{
 	float: left;
 	margin-bottom: 15px;
@@ -60,11 +62,13 @@ hr {
     background-color: black;
     border: none;       
 }
+
 p {
 	font-size: 15px;
-	font-weight: 
-	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -72,9 +76,11 @@ ul {
 	overflow: hidden;
 	background-color: #333;
 }
+
 li {
 	float: left;
 }
+
 li a {
 	display: block;
 	color: white;
@@ -82,9 +88,11 @@ li a {
 	padding: 14px 16px;
 	text-decoration: none;
 }
+
 li a:hover:not(.active) {
 	background-color: #111;
 }
+
 .active {
 	background-color: #17bf2c;
 }
