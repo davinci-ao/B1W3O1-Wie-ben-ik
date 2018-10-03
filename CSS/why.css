@@ -1,0 +1,107 @@
+.sideBarBlock li a {
+    width: 168px;
+    display: block; /*Zorgt ervoor dat de tekst een blok wordt zodat je op een blok klikt ipv. een stuk tekst */
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sideBarBlock li a:hover { /*Zorgt ervoor dat wanneer muis er overheen gaat, kleuren veranderen op sidebar */
+	background-color: orange;
+	color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.sideBar {
+	list-style-type: none;
+	margin: 52px 0 0 0;
+	padding:0;
+	width: 200px;
+    background-color: #f1f1f1;
+    height: 100%; /* Volledige grootte */
+    position: fixed; /* Zorgt ervoor dat Sidebar op plek blijft, zelfs als je moet scrollen*/
+    box-shadow: 10px 10px 5px grey;
+}
+
+.active {
+	background-color: orange;
+	color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.footer {
+    position: fixed;    /*definieert de positie methode van de footer - absolute, static, fixed, sticky etc.*/
+    left: 0;            /*geeft de exacte positie van de footer weer */
+    bottom: 0;          /* In dit geval zorgt position fixed ervoor dat de footer op zijn plek blijft, zelfs tijdens scrollen */
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    display: inline;
+    margin-left: 50px;
+}
+
+.logo {
+    position: fixed; /*definieert de positie methode van de afbeelding - absolute, static, fixed, sticky etc.*/
+    right: 0px; /*geeft de exacte positie van de afbeelding weer */
+    bottom: 0px; /* In dit geval zorgt position fixed ervoor dat de logo op zijn plek blijft, zelfs tijdens scrollen */
+}
+
+h2 { 
+    font-family: Helvetica, Arial, sans-serif;  
+    font-style: italic;
+    text-align: justify;
+    max-width: 800px;
+    text-align: center;
+    color: orange;
+}
+
+.whyBlock p {
+    font-family: Helvetica, Arial, sans-serif; 
+    font-style: italic;
+    text-align: justify;
+    margin: 0 20px 20px 20px; 
+}
+
+h1 {
+    position: fixed;
+    color: orange;
+    top: 0;
+    left: 50px;
+    text-shadow: 10px 10px 5px grey;
+}
+
+.whyBlock{
+    border-style: groove;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 800px;
+    border-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+.programmingImage {
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    margin: 20px 20px 50px 20px;
+    width: 400px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+@media(max-width: 1270px){ /*ik zeg nu: bij deze breedte en kleiner moet er het volgende gebeuren; */
+.programmingImage {
+    display: none;
+}
+.whyBlock {
+    margin-left: 250px;
+}
+
+.logo {
+    display: none; /*Logo verdwijnt nu.*/
+}
+}
