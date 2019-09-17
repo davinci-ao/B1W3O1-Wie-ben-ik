@@ -1,12 +1,28 @@
-h1 {
+h1.first {
     font-size : 60px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    float: left;
+    margin-left: 100px;
+}
+h1.second {
+    font-size : 60px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 105px;
 }
 body {
     background-color: lightgrey;
+    background: -webkit-linear-gradient(left, grey, grey 30%, white 30%, white);
 }
 img.profile{
     width: 200px;
+    float: left;
+    border: 1px solid rgb(82, 81, 81);
+    margin-left: 40px;
+    border-radius: 80px;
+}
+img.schoolLogo{
+    width: 180px;
     float: right;
+    padding: 20px;
 }
