@@ -26,3 +26,9 @@ img.schoolLogo{
     float: right;
     padding: 20px;
 }
+a.button {
+    margin: 20px;
+    text-decoration: none;
+    color: initial;
+    font-style: oblique ;
+}
