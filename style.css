@@ -1,0 +1,12 @@
+h1 {
+    font-size : 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body {
+    background-color: lightgrey;
+}
+img.profile{
+    width: 200px;
+    float: right;
+}
