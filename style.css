@@ -4,6 +4,20 @@ h1.first {
     float: left;
     margin-left: 10px;
 }
+h1.first2 {
+    font-size : 45px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px
+}
+h1.first3 {
+    font-size : 43px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px
+}
 h1.second {
     font-size : 60px;
     font-family: 'Times New Roman', Times, serif;
@@ -12,7 +26,7 @@ h1.second {
 }
 body {
     background-color: lightgrey;
-    background: -webkit-linear-gradient(left, grey, grey 30%, white 30%, white);
+    background: -webkit-linear-gradient(left, grey, grey 30%, rgb(214, 213, 213) 30%, rgb(214, 213, 213));
 }
 img.profile{
     width: 200px;
@@ -20,7 +34,7 @@ img.profile{
     border: 1px solid rgb(82, 81, 81);
     margin-right: 40px;
     border-radius: 80px;
-    padding: 10px;
+    padding: 0px;
 }
 img.schoolLogo{
     width: 180px;
@@ -35,6 +49,19 @@ a.hLink {
     font-size: 20px;
 }
 div.grayArea{
-    width: 300px;
+    width: 450px;
     float: left;
+}
+div.text{
+    float: right;
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div.subtitle{
+    float: right;
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
