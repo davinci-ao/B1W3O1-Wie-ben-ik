@@ -47,6 +47,7 @@ a.hLink {
     color: initial;
     font-style: oblique ;
     font-size: 20px;
+    cursor: pointer;
 }
 a.hhLink {
     margin: 20px;
